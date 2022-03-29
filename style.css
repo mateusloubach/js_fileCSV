@@ -1,0 +1,29 @@
+input {
+    padding: 25px 7px 35px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.50);
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    /* font-weight: bold; */
+    font-size: 13px;
+  }
+  
+  th {
+    background: #7a429c;
+    color: #ffffff;
+    text-align: left;
+  }
+  
+  th,
+  td {
+    padding: 10px 20px;
+  }
+  
+  tr:nth-child(even) {
+    background: #eeeeee;
+  }
+  
